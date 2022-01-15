@@ -4,7 +4,7 @@ This project is example to connect Neo4j AuraDB using Springboot Application. Lo
 
 Example 1:
 
-Used two models of the Database i.e Movie and Person. And used Relationship "DIRECTED"
+Used two models of the Database i.e Movie and Person. And used Relationship "DIRECTED", "ACTED-IN"
 
 The endpoint expose to test is 
 http://localhost:8080/movies
