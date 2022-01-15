@@ -7,7 +7,7 @@ Example 1:
 Used two models of the Database i.e Movie and Person. And used Relationship "DIRECTED", "ACTED-IN"
 
 The endpoint expose to test is 
-http://localhost:8080/movies
+GET: http://localhost:8080/movies
 
 
 *Note: Change the Database Credentials to your Credentials. Available credentials won't work.
