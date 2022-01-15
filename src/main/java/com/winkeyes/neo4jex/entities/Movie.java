@@ -27,5 +27,8 @@ public class Movie {
     private String title;
     @Relationship(type = "DIRECTED" ,direction=Direction.INCOMING)
     private Set<Person> director;
-    
+
+    @Relationship(type = "ACTED_IN" ,direction=Direction.INCOMING)
+    private Set<ActorRelationship> actor;
+
 }
